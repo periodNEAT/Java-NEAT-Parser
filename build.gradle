@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = JavaVersion.VERSION_14
+targetCompatibility = JavaVersion.VERSION_14
+
+archivesBaseName = project.archives_base_name
+version = project.version
+group = project.group
+
+
+repositories {
+    mavenCentral()
+}
